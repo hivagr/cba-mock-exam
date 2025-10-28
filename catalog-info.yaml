@@ -7,7 +7,7 @@ metadata:
     example.com/custom: custom_label_value
   annotations:
     example.com/service-discovery: artistweb
-    github.com/project-slug: hivagr/cba-mock-exam
+    github.com/project-slug: 'hivagr/cba-mock-exam'
   tags:
     - java
   links:
