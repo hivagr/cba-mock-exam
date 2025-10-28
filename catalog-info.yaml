@@ -18,5 +18,5 @@ metadata:
 spec:
   type: website
   lifecycle: production
-  owner: hivagr 
+  owner: infra
   system: mock-exams 
