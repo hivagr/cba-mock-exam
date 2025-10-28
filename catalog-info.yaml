@@ -1,22 +1,19 @@
 apiVersion: backstage.io/v1alpha1
 kind: Component
 metadata:
-  name: cba-mock-exam 
-  description: Certified Backstage Associated - Exam 
-  labels:
-    example.com/custom: custom_label_value
+  name: cba-mock-exam
+  description: Certified Backstage Associated - Exam
   annotations:
-    example.com/service-discovery: artistweb
     github.com/project-slug: 'hivagr/cba-mock-exam'
   tags:
     - java
   links:
     - url: http://localhost:3000
-      title: Mock - Exam 
+      title: Mock - Exam
       icon: dashboard
       type: admin-dashboard
 spec:
   type: website
   lifecycle: production
   owner: infra
-  system: mock-exams 
+  system: mock-exams
