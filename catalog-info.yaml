@@ -5,6 +5,7 @@ metadata:
   description: Certified Backstage Associated - Exam
   annotations:
     github.com/project-slug: 'hivagr/cba-mock-exam'
+    docker.com/repository: 'hiddevg/cba-mock-exam'
   tags:
     - java
   links:
@@ -13,7 +14,7 @@ metadata:
       icon: dashboard
       type: admin-dashboard
 spec:
-  type: website
+  type: mock-exam
   lifecycle: production
   owner: infra
-  system: mock-exams
+  system: education
