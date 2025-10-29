@@ -14,7 +14,7 @@ metadata:
       icon: dashboard
       type: admin-dashboard
 spec:
-  type: mock-exam
+  type: website
   lifecycle: production
   owner: infra
   system: education
